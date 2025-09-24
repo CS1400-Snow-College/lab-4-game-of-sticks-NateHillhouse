@@ -1,16 +1,8 @@
 ﻿/*
-Players will take turns removing between 1 and 3 of the remaining sticks.  
-The player that removes the last stick loses.
-
-Sticks left: 20
-Player 1, how many sticks would you like to take? 3
-
-Sticks left: 17
-Player 2, how many sticks would you like to take? 3
+Nathan Hillhouse
+Sep 23, 2025
+lab 4 - Game of sticks
 */
-using System.Collections;
-using System.Runtime.CompilerServices;
-
 int sticks = 20, player = 1, playersticks = 0, max_sticks = 3;
 string message = $"Player {player}, how many sticks will you take? ";
 bool success = false;
